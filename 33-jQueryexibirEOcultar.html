@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 1.P</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+  <script>
+    //quando a DOM estiver carregada executamos a nossa função jquery
+    $(document).ready(function () {
+
+
+      $("#exibir").click(function () {
+        $("img").show();
+      });
+
+
+      $("#ocultar").click(function () {
+        $("img").hide();
+      });
+
+    });
+
+  </script>
+</head>
+
+<body>
+  <button id="exibir">Exibir</button>
+  <button id="ocultar">Ocultar</button>
+
+  <img src="logo_proway.png">
+
+
+
+</body>
+
+</html>
